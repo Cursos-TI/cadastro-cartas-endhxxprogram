@@ -50,7 +50,8 @@ scanf ("%d", &turismo);
 
   // Área para exibição dos dados da cidade
 
+printf ("Carta 1:\n");
+printf ("Estado:", estado);
 
-  
 return 0;
 } 
