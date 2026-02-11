@@ -8,7 +8,7 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
   char estado[30]; 
-  char cartas[5]; //Código da
+  char cartas[5]; 
   char cidade[20];
   int população;
   int turismo;
@@ -25,9 +25,32 @@ area = 98067.881; // area total inicializaada
 
   // Área para entrada de dados
 
-  
+printf ("Carta 1:\n");
+
+printf ("Estado:");
+scanf ("%s", &estado);
+
+printf ("Código:");
+scanf ("%s", &cartas);
+
+printf ("Nome da cidade:");
+scanf ("%s", &cidade);
+
+printf ("População:");
+scanf ("%d", &população);
+
+printf ("Área");
+scanf ("%f", &area);
+
+printf ("PIB:")
+scanf ("%f", &pib);
+
+printf ("Números de pontos Turísticos:");
+scanf ("%d", &turismo);
 
   // Área para exibição dos dados da cidade
 
+
+  
 return 0;
 } 
