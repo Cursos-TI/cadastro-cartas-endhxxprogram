@@ -7,7 +7,25 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
+  char estado[30]; 
+  char cartas[5]; //Código da
+  char cidade[20];
+  int população;
+  int turismo;
+  float pib;
+  float area;
+
+estado = Pernambuco; //Nome do Estado inicializado
+cartas = C02; //Código da carta inicializado
+cidade = Caruaru; //Cidade da carta inicializado
+população = 405410; //População iniciaizada
+turismo = 40; //Pontos turisticos inicializado
+pib = 20.000000000; //PIB total inicializado
+area = 98067.881; // area total inicializaada
+
   // Área para entrada de dados
+
+  
 
   // Área para exibição dos dados da cidade
 
