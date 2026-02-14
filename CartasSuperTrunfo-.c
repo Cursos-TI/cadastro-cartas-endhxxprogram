@@ -83,4 +83,4 @@ printf ("População: %d\n", população2);
 printf ("Área: %f\n", area2);
 printf ("PIB: %f\n", pib2);
 printf ("Pontos Turísticos: %d", turismo2);
-b}
+}
