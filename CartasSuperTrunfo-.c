@@ -9,6 +9,12 @@ int população1 = 1830000;
 float area1 = 435.036;
 float pib1 = 120.000000000;
 int turismo1 = 47;
+//NIVEL AVENTUREIRO
+
+float resultado1;
+resultado1 = area1 / população1;
+float media1;
+media1 = pib1 / população1;
 
 printf ("CARTA 01:\n");
 
@@ -41,6 +47,8 @@ printf ("População: %d\n", população1);
 printf ("Área: %f\n", area1);
 printf ("PIB: %f\n", pib1);
 printf ("Pontos Turísticos: %d\n", turismo1);
+printf ("Densidade populacional: %f\n", resultado1);
+printf ("PIB per Capita: %f\n", media1);
 
 //INFO CARTA 2
 
