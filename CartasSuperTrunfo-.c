@@ -52,6 +52,11 @@ printf ("PIB per Capita: %f\n", media1);
 
 //INFO CARTA 2
 
+float resultado2;
+resultado1 = area2 / população2;
+float media2;
+media1 = pib2 / população2;
+
 printf ("CARTA 2\n");
 
 char estado2 = 'D';
@@ -61,6 +66,8 @@ int população2 = 405410;
 float area2 = 923.150;
 float pib2 = 29.738000;
 int turismo2 = 40;
+
+//NIVEL AVENTUREIRO
 
 printf ("Insira o Estado da Carta (A-H):");
 scanf ("%s", &estado2);
@@ -91,4 +98,6 @@ printf ("População: %d\n", população2);
 printf ("Área: %f\n", area2);
 printf ("PIB: %f\n", pib2);
 printf ("Pontos Turísticos: %d", turismo2);
+printf ("Densidade populacional: %f\n", resultado2);
+printf ("PIB per Capita: %f\n", media2);
 }
