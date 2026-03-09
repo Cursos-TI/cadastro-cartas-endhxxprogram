@@ -28,7 +28,7 @@ printf ("Insira a Cidade da Carta:");
 scanf ("%s", cidade1);
 
 printf ("Insira a População da Cidade:");
-scanf ("%d", &população1);
+scanf ("%u", &população1);
 
 printf ("Insira a Área (em quilometros quadrados):");
 scanf ("%f", &area1);
@@ -43,7 +43,7 @@ printf ("Resultados da Carta 1:\n");
 printf ("Estado: %c\n", estado1);
 printf ("Código da Carta: %s\n", codigo1); 
 printf ("Cidade: %s\n", cidade1);
-printf ("População: %d\n", população1);
+printf ("População: %u\n", população1);
 printf ("Área: %f\n", area1);
 printf ("PIB: %f\n", pib1);
 printf ("Pontos Turísticos: %d\n", turismo1);
@@ -79,7 +79,7 @@ printf ("Insira a Cidade da Carta:");
 scanf ("%s", cidade2);
 
 printf ("Insira a População da Cidade:");
-scanf ("%d", &população2);
+scanf ("%u", &população2);
 
 printf ("Insira a Área (em quilometros quadrados):");
 scanf ("%f", &area2);
@@ -94,7 +94,7 @@ printf ("Resultados da Carta 2:\n");
 printf ("Estado: %c\n", estado2);
 printf ("Código da Carta: %s\n", codigo2); 
 printf ("Cidade: %s\n", cidade2);
-printf ("População: %d\n", população2);
+printf ("População: %u\n", população2);
 printf ("Área: %f\n", area2);
 printf ("PIB: %f\n", pib2);
 printf ("Pontos Turísticos: %d\n", turismo2);
@@ -121,7 +121,7 @@ printf ("Agora, iremos verificar o vencedor das Cartas de Super Trunfo, comparan
 
 printf ("Caso o resultado saia 1 em sua maioria, a Carta 1 venceu, se o resultado sair 0 em sua maioria, a Carta 2 venceu!\n");
 
-printf ("População:%d\n", população1 > população2);
+printf ("População:%u\n", população1 > população2);
 printf ("Área:%d\n", area1 > area2);
 printf ("PIB:%d\n", pib1 > pib2);
 printf ("Turismo:%d\n", turismo1 > turismo2);
